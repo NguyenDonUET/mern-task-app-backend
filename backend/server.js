@@ -13,7 +13,10 @@ app.use(cors())
 
 app.use(
    cors({
-      origin: ['http://localhost:3000', 'https://mern-task-app.onrender.com']
+      origin: [
+         'http://localhost:3000',
+         'https://mern-stack-task-app.onrender.com'
+      ]
    })
 )
 
